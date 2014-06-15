@@ -1,0 +1,54 @@
+body,html,.row-offcanvas {
+    height:100%;
+    overflow: hidden;
+}
+.fullHeight {
+    height: 100%;
+}
+#sidebar {
+    width: inherit;
+    min-width: 300px;
+    max-width: 300px;
+    background-color:#D8D8D8;
+    float: left;
+    height:100%;
+    min-height: 100%;
+    position:relative;
+    overflow:hidden;
+}
+#sidebarSettings .form-inline {
+    margin-bottom:30px;
+}
+
+#main {
+    height:100%;
+    overflow: hidden;
+}
+
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+        width:calc(100% + 220px);
+    }
+
+    .row-offcanvas-left
+    {
+        left: -220px;
+    }
+
+    .row-offcanvas-left.active {
+        left: 0;
+    }
+
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+    }
+}
