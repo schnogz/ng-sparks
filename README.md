@@ -4,12 +4,10 @@ Angular Sparks
 Angular and Twitter Bootstrap based application that generates a user defined and/or random sparks onto an HTML5 canvas.  
 
 
-Getting Started
+Demo
 ======
 
-* Clone repo.
-* Ensure Node, NPM, and Bower are installed globally.
-* From root directory, run: `npm install`, `bower install` to pull dependencies.
+View the demo at http://schnogz.com/projects/sparks/#/
 
 
 License
