@@ -10,8 +10,7 @@ View the demo at http://schnogz.com/projects/sparks/#/
 
 Screenshot
 ======
-
-View the demo at http://schnogz.com/projects/sparks/#/
+[app screenshot](https://cloud.githubusercontent.com/assets/6364918/25072242/1c262742-228f-11e7-95e3-dcffb80ce922.png)
 
 License
 ========
